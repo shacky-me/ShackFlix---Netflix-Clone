@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
 
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
-const URL = `http://www.omdbapi.com/?apikey=${API_KEY}`;
+const URL = `https://www.omdbapi.com/?apikey=${API_KEY}`;
 
 const Trending = () => {
   const [trendingMovies, setTrendingMovies] = useState([]);
